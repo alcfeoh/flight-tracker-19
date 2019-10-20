@@ -2,11 +2,15 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+app-root { height: 100%; display: block;}
 
 section {
     display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100%;
 }
 
-mat-list {
-
+nav {
+    border-right: 1px grey solid;
+    height: 100%;
 }
